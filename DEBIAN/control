@@ -1,0 +1,15 @@
+Package: storiq-netcardconfig
+Version: 0.8
+Section: Intellique
+Priority: optional
+Architecture: all
+Depends: ethtool, dialog, iproute2
+Suggests: xdialog, wireless-tools
+Conflicts: netcardconfig-knoppix
+Replaces: netcardconfig-knoppix
+Provides: netcardconfig-knoppix
+Installed-Size: 124
+Maintainer: Developpers Team <dev@intellique.com>
+Description: network configuration script
+ Minimalistic ncurses/dialog-based network card configuration script for
+ StorIQ.

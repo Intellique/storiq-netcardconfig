@@ -1,0 +1,18 @@
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Network configuration
+Comment=Network configuration
+Name[fr]=Configuration réseau
+Comment[fr]=configuration réseau
+Name[es]=Configuración de la tarjeta de red
+Comment[es]=Configuración de la tarjeta de red
+Name[de]=Netzwerkkarte konfigurieren
+Comment[de]=Netzwerkkarte konfigurieren
+Categories=Application;System;
+Exec=/usr/bin/gksu /usr/sbin/netcardconfig
+Icon=netcardconfig
+Terminal=false
+StartupNotify=false
